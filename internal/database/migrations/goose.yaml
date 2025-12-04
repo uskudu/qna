@@ -1,0 +1,9 @@
+# goose.yaml
+directory: ./migrations
+table: goose_db_version
+driver: postgres
+env:
+  development:
+    dsn: $DATABASE_URL
+  production:
+    dsn: $DATABASE_URL
