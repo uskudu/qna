@@ -46,7 +46,6 @@ func (u *QuestionUsecase) DeleteQuestion(ctx context.Context, id string) error {
 		return errors.ErrInvalidID
 	}
 
-	// проверка существования
 	_, _, err := u.qRepo.GetQuestionByID(ctx, id)
 	if err != nil {
 		return err

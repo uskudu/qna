@@ -24,7 +24,7 @@ A RESTful API service built with Go for managing questions and answers. This app
 ## Project Structure
 
 ```
-QnA/
+QnA/ 
 ├── cmd/
 │   └── app/
 │       └── main.go              # Application entry point
@@ -40,10 +40,10 @@ QnA/
 │   │   └── my_http/             # HTTP handlers
 │   ├── server/                  # HTTP server setup
 │   └── shared/                  # Shared utilities and errors
-├── docker/
-│   ├── Dockerfile               # Application Docker image
-│   └── docker-compose.yaml      # Docker Compose configuration
-└── tests/                       # Test files
+└── docker/
+    ├── Dockerfile               # Application Docker image
+    └── docker-compose.yaml      # Docker Compose configuration
+
 ```
 
 ## Prerequisites
